@@ -30,3 +30,12 @@ print("Divition", c1 / c2) #division
 print("Multiplication", c1 * c2) #Multiplication
 
 print("Real number: ", c1.real, "Imagenary number: ", c1.imag)
+
+#Reading complex number from user
+
+input_data = complex(input("Enter Complex number: "))
+print("Given complex number is: ", input_data)
+
+#Finding Conjugate of Complex Number
+input_data.conjugate()
+print("Conjugate number: ", input_data)
