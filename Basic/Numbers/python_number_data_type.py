@@ -20,3 +20,18 @@ d = 4-5j
 print(type(a))
 print(type(b))
 print(type(c))
+
+#Type Conversion
+
+a1 = float(a) #convert from int to float
+b2 =int(b) #Conver from float to int
+c3 = complex(a) #conver from int to complex
+#Note complex number can't be converted to int or float
+print(type(a1))
+print(type(b2))
+print(type(c3))
+
+#Random Number
+import random
+print(random.randrange(1,40)) #generate random number between 1 to 40
+
